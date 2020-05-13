@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="6" column="0">
+        <widget class="QFrame" name="frame_10">
+         <property name="styleSheet">
+          <string notr="true">border-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <widget class="QPushButton" name="inverse">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 0, 122);
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Show Output</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QFrame" name="frame_7">
+         <property name="styleSheet">
+          <string notr="true">border-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="2" column="0">
+           <widget class="QPushButton" name="stopInput">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+</string>
+            </property>
+            <property name="text">
+             <string>Stop </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="playInput">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Play </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="3">
+        <widget class="QFrame" name="frame_2">
+         <property name="font">
+          <font>
+           <family>MS Sans Serif</family>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="title">
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+background-color: rgb(99, 99, 99);
+color: rgb(6, 6, 6);
+background-color: rgb(182, 182, 182);
+</string>
+            </property>
+            <property name="text">
+             <string>GEQ GRAPHIC EQUALIZER</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="PlotWidget" name="GVOriginal"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QFrame" name="frame_8">
+         <property name="styleSheet">
+          <string notr="true">border-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="7" column="0">
+           <widget class="QPushButton" name="Rect">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+
+</string>
+            </property>
+            <property name="text">
+             <string>Rectangular</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="hanningbutton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+</string>
+            </property>
+            <property name="text">
+             <string>Hanning</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="hammingbutton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Hamming</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="1" colspan="2">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="3">
+          <widget class="QLabel" name="l2">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="14">
+          <widget class="QSlider" name="slider7">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="12">
+          <widget class="QSlider" name="slider6">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="18">
+          <widget class="QSlider" name="slider9">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="10">
+          <widget class="QSlider" name="slider5">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="13">
+          <widget class="QLabel" name="l7">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="l4">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="8">
+          <widget class="QSlider" name="slider4">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="l3">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="11">
+          <widget class="QLabel" name="l6">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="16">
+          <widget class="QSlider" name="slider8">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="l1">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="acceptDrops">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QSlider" name="slider1">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="17">
+          <widget class="QLabel" name="l9">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="15">
+          <widget class="QLabel" name="l8">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QSlider" name="slider2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="9">
+          <widget class="QLabel" name="l5">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 170, 127);
+background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QSlider" name="slider0">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 170, 127);
+background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="19">
+          <widget class="QLabel" name="l10">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QSlider" name="slider3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="minimum">
+            <number>-10</number>
+           </property>
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="2" colspan="2">
+        <widget class="PlotWidget" name="GVFourier">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1" colspan="3">
+        <widget class="PlotWidget" name="GVwindow"/>
+       </item>
+       <item row="3" column="3">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="6" column="3">
+        <widget class="QFrame" name="frame_12">
+         <property name="styleSheet">
+          <string notr="true">border-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <widget class="QPushButton" name="exit">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>60</y>
+            <width>351</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 0, 122);
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Exit</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QPushButton" name="upload">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 122);
+color: rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="text">
+          <string>Upload</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>slider6</tabstop>
+  <tabstop>slider3</tabstop>
+  <tabstop>slider9</tabstop>
+  <tabstop>slider7</tabstop>
+  <tabstop>slider1</tabstop>
+  <tabstop>slider4</tabstop>
+  <tabstop>slider8</tabstop>
+  <tabstop>slider2</tabstop>
+  <tabstop>slider5</tabstop>
+  <tabstop>slider0</tabstop>
+  <tabstop>GVOriginal</tabstop>
+  <tabstop>stopInput</tabstop>
+  <tabstop>inverse</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>slider0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l1</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l3</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>393</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l8</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>746</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l4</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>464</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>506</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l2</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider0</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l1</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>546</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>544</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l9</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>816</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>859</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l6</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>605</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>647</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l2</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>543</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>343</x>
+     <y>544</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l7</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>718</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l5</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>534</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider9</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>l10</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>887</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
